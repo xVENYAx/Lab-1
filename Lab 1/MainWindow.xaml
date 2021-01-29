@@ -10,7 +10,7 @@
 
     <StackPanel>
     
-    <Border BorderBrush="Navy" Background="Lavender" BorderThickness="2" Name="border1" Margin="20" >
+        <Border BorderBrush="Navy" Background="Lavender" BorderThickness="2" Name="border1" Margin="20" >
 
         <StackPanel Orientation="Horizontal">
 
@@ -35,7 +35,9 @@
 
     </Border>
 
-    <Border BorderBrush="Navy" Background="Lavender" BorderThickness="2" Name="border2" Margin="20" >
+        <TextBlock Text="Чудово, перше завдання лаб.1 виконане" TextAlignment="Center" />
+
+        <Border BorderBrush="Navy" Background="Lavender" BorderThickness="2" Name="border2" Margin="20" >
 
         <StackPanel Orientation="Horizontal">
 

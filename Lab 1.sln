@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Приклад 1", "Lab 1\Приклад 1.csproj", "{2C8B425E-3529-435D-B58B-8B9C30B81423}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Приклад1", "Приклад1", "{E730AB4D-43C9-424D-94BD-5EABBE20E474}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Приклад2", "Приклад2", "{C385441E-2D03-43A9-9CD7-D8C0E9B07514}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Приклад 2", "Приклад 2\Приклад 2.csproj", "{2689A206-4694-410E-BD66-A8316CA27099}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{2C8B425E-3529-435D-B58B-8B9C30B81423}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C8B425E-3529-435D-B58B-8B9C30B81423}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C8B425E-3529-435D-B58B-8B9C30B81423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2689A206-4694-410E-BD66-A8316CA27099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2689A206-4694-410E-BD66-A8316CA27099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2689A206-4694-410E-BD66-A8316CA27099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2689A206-4694-410E-BD66-A8316CA27099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C8B425E-3529-435D-B58B-8B9C30B81423} = {E730AB4D-43C9-424D-94BD-5EABBE20E474}
+		{2689A206-4694-410E-BD66-A8316CA27099} = {C385441E-2D03-43A9-9CD7-D8C0E9B07514}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00C9AC31-8B61-4321-9ECF-FF97BF6C9628}
